@@ -1,0 +1,91 @@
+.airports {
+  padding: 20px;
+  width: 80%;
+}
+.airports-header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.airports-header {
+  width: 200px;
+  height: 28px;
+  top: 100px;
+  left: 312px;
+  gap: 12px;
+  opacity: 0px;
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 27.65px;
+  text-align: left;
+}
+.add-new-btn {
+  width: 120px;
+  height: 32px;
+  top: 90px;
+  left: 1716px;
+  padding: 6px 17px 7px 17px;
+  gap: 8px;
+  border-radius: 50px;
+  opacity: 0px;
+  background-color: #000000e5;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17.6px;
+  text-align: center;
+}
+
+.airports-list {
+  list-style-type: none;
+  padding-left: 0;
+
+  border: 1px solid #d5d5d5;
+  border-radius: 4px;
+}
+.airport {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #d5d5d5;
+  padding: 5px;
+}
+.table-name-header {
+  display: flex;
+  align-items: center;
+  width: 51%;
+}
+.table-country-header {
+  width: 20%;
+}
+.table-code-header {
+  width: 10%;
+}
+.table-terminals-header {
+  width: 10%;
+}
+.table-header {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17.6px;
+  text-align: left;
+}
+.table-icon {
+  width: 3%;
+  color: #000000;
+}
+.table-name {
+  width: 51%;
+}
+.table-country {
+  width: 20%;
+}
+.table-code {
+  width: 10%;
+}
+.table-terminals {
+  width: 10%;
+}

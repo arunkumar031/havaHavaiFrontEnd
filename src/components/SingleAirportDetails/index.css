@@ -1,0 +1,275 @@
+.airport-details {
+  font-family: 'Roboto';
+  padding: 20px;
+  width: 100%;
+}
+.airport-navigator {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.11px;
+  text-align: left;
+}
+.navigator-header {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20.11px;
+  text-align: left;
+}
+.airport-header {
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 42.74px;
+  text-align: left;
+}
+.menu-container {
+  width: 100%;
+  height: 48px;
+  padding-bottom: 13px;
+  gap: 24px;
+  border-bottom: solid 2px #d5d5d5;
+  opacity: 0px;
+  display: flex;
+}
+.active-menu {
+  border-bottom: solid 2px #000000;
+}
+.menu-option {
+  width: 120px;
+  height: 100%;
+  padding: 7px 0px 8px 0px;
+  gap: 7px;
+  opacity: 0px;
+  text-align: center;
+}
+.terminal-container {
+  display: flex;
+  align-items: center;
+}
+.terminal-list {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+}
+.terminal-card {
+  width: 280px;
+  height: 104px;
+  top: 276px;
+  left: 315px;
+  gap: 0px;
+  border-radius: 4px;
+  border: 1px solid #e6e6e6;
+  opacity: 0px;
+  display: flex;
+  margin: 10px;
+}
+.terminal-img {
+  width: 104px;
+  height: 104px;
+  gap: 0px;
+  border: 0px 1px 0px 0px;
+  opacity: 0px;
+}
+.terminal-text {
+  padding: 10px;
+}
+.terminal-header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.terminal-header {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17.6px;
+  text-align: left;
+}
+.terminal-description {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  text-align: left;
+}
+.add-terminal-btn {
+  width: 141px;
+  height: 32px;
+  top: 312px;
+  left: 935px;
+  padding: 6px 17px 7px 17px;
+  gap: 8px;
+  border-radius: 50px;
+  border: 2px solid #000000;
+  opacity: 0px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17.6px;
+  text-align: center;
+  color: #000000;
+  margin: 10px;
+}
+.service-header {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 27.65px;
+  text-align: left;
+}
+.input {
+  width: 100%;
+  height: 48px;
+  top: 489px;
+  left: 311px;
+  gap: 0px;
+  border: 0px 0px 1px 0px;
+  opacity: 0px;
+  border-bottom: 1px solid #d5d5d5;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17.6px;
+  text-align: left;
+}
+.input-save-container {
+  display: flex;
+  justify-content: space-between;
+}
+.input-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 88%;
+}
+.input-label {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.label-text {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15.08px;
+  text-align: left;
+}
+.small-input {
+  width: 176px;
+  height: 33px;
+  padding: 7px 7px 8px 12px;
+  gap: 8px;
+  border-radius: 4px;
+  opacity: 0px;
+  border: 1px solid #b1b1b1;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17.6px;
+  text-align: left;
+}
+.dropdown {
+  width: 176px;
+  height: 33px;
+  gap: 0px;
+  border-radius: 4px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17.6px;
+  text-align: left;
+  margin-top: 13px;
+}
+.upload-btn {
+  width: 137px;
+  height: 32px;
+  padding: 6px 15px 7px 14px;
+  gap: 8px;
+  border-radius: 50px;
+  opacity: 0px;
+  background-color: #e6e6e6;
+}
+.show-image-btn {
+  width: 108px;
+  height: 32px;
+  top: 592px;
+  left: 1130px;
+  padding: 7px 0px 7px 0px;
+  gap: 10px;
+  opacity: 0px;
+}
+.save-btn {
+  width: 63px;
+  height: 32px;
+  top: 579px;
+  left: 1648px;
+  padding: 6px 17px 7px 17px;
+  gap: 8px;
+  border-radius: 50px;
+  opacity: 0px;
+  background-color: #000000e5;
+  color: #ffffff;
+}
+.input {
+  width: 392px;
+  height: 33px;
+  padding: 7px 7px 8px 12px;
+  gap: 8px;
+  border-radius: 4px;
+  border: 1px solid #b1b1b1;
+  opacity: 0px;
+}
+.underline-description-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.underline-description {
+  width: 100%;
+  height: 48px;
+  top: 743px;
+  left: 311px;
+  gap: 0px;
+  opacity: 0px;
+  border-bottom: 1px solid #d5d5d5;
+}
+
+.popup {
+  width: 464px;
+  height: 212px;
+  top: 406px;
+  left: 728px;
+  padding: 32px;
+  gap: 46px;
+  border-radius: 4px;
+  opacity: 0px;
+  background-color: #f8f8f8;
+}
+.popup-header {
+  font-weight: 600;
+  line-height: 22.63px;
+  text-align: left;
+}
+.popup-description {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17.6px;
+  text-align: left;
+}
+.popup-btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.popup-cancel-btn {
+  border: 2px solid #d5d5d5;
+  width: 75px;
+  height: 32px;
+  padding: 6px 17px 7px 17px;
+  gap: 8px;
+  border-radius: 50px;
+  opacity: 0px;
+}
+.popup-continue-btn {
+  border: 2px solid #222222;
+  width: 90px;
+  height: 32px;
+  padding: 6px 17px 7px 17px;
+  gap: 8px;
+  border-radius: 50px;
+  opacity: 0px;
+  margin-left: 5px;
+}

@@ -1,0 +1,64 @@
+.nav {
+  width: 20%;
+  height: 964px;
+  top: 60px;
+  padding: 20px 16px 16px 16px;
+  gap: 16px;
+  opacity: 0px;
+  box-shadow: 0px 1px 4px 0px #00000026;
+}
+.section {
+  width: 100%;
+  gap: 0px;
+  opacity: 0px;
+  margin-bottom: 20px;
+}
+.navigation-item {
+  width: 100%;
+  height: 34px;
+  padding: 7px 12px 8px 12px;
+  gap: 10px;
+  opacity: 0px;
+  display: flex;
+  align-items: center;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17.6px;
+  text-align: left;
+}
+.active {
+  background-color: #0000000f;
+  text-decoration: none;
+}
+.icon {
+  width: 18px;
+  height: 18px;
+  padding: 1.68px 0.18px 1px 0.18px;
+  gap: 0px;
+  opacity: 0px;
+}
+.label {
+  width: 188px;
+  height: 19px;
+  padding: 0px 0px 1px 0px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17.6px;
+  text-align: left;
+}
+.navigation-header {
+  width: 240px;
+  height: 34px;
+  padding: 7px 12px 8px 12px;
+  gap: 10px;
+  opacity: 0px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17.6px;
+  text-align: left;
+}
